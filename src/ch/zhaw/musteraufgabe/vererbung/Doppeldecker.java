@@ -4,8 +4,8 @@ public class Doppeldecker<LOOPINGSPEED> extends Flugzeug{
 	
 	private static final int LOOPINGSPEED = 320;
 	private static final int ANZAHLFUEGEL = 2; 
-	
 	private boolean offenesCockpit;
+	
 
 	public Doppeldecker(String hersteller, int maxSpeed, String immatNummer, boolean offenesCockpit) {
 		super(hersteller, maxSpeed,ANZAHLFUEGEL, immatNummer);
